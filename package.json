@@ -1,0 +1,21 @@
+{
+  "name": "@fleetbot/4-login",
+  "version": "1.0.0",
+  "description": "Endpoints for workflow 4 containing login services",
+  "main": "handle.js",
+  "repository": "git@github.com:Fleetbot-Inc/4.Login.git",
+  "author": "Daniel Fredriksen",
+  "license": "AGPL-3.0-only",
+  "private": false,
+  "scripts": {
+    "test": "jest --coverage",
+    "deploy": "yarn test && serverless deploy"
+  },
+  "dependencies": {
+    "@source4society/scepter-endpoints": "^0.0.2",
+    "@source4society/scepter-utility-lib": "^5.0.0",
+    "jest-cli": "^25.1.0",
+    "serverless-api-gateway-throttling": "^1.0.1",
+    "serverless-aws-documentation": "^1.1.0"
+  }
+}
